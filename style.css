@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #212121;
+    color: #ffffff;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.crosshair-card {
+    background-color: #2a2e35;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 150px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.crosshair-image {
+    background-color: #383c45;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+.copy-button {
+    background-color: #424854;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.copy-button:hover {
+    background-color: #505664;
+}
+
+.crosshair-code {
+    border: none;
+    background-color: transparent;
+    color: transparent;
+    height: 0;
+    width: 0;
+    position: absolute;
+    left: -9999px;
+}
+
+.container {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1320px;
+    }
+}
